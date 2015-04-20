@@ -1,0 +1,10 @@
+externdef _imp___cprintf:PTR c_msvcrt
+printf equ <_imp___cprintf>
+externdef _imp___cscanf:PTR c_msvcrt
+scanf equ <_imp___cscanf>
+externdef _imp__gets:PTR c_msvcrt
+gets equ <_imp__gets>
+externdef _imp___getch:PTR c_msvcrt
+getch equ <_imp___getch>
+externdef _imp___kbhit:PTR c_msvcrt
+kbhit equ <_imp___kbhit>

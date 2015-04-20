@@ -1,0 +1,10 @@
+externdef _imp__atoi:PTR c_msvcrt
+atoi equ <_imp__atoi>
+externdef _imp__exit:PTR c_msvcrt
+exit equ <_imp__exit>
+externdef _imp__rand:PTR c_msvcrt
+rand equ <_imp__rand>
+externdef _imp__srand:PTR c_msvcrt
+srand equ <_imp__srand>
+externdef _imp__time:PTR c_msvcrt
+time equ <_imp__time>
